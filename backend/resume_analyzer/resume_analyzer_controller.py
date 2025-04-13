@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 # import openai
 from dotenv import load_dotenv
-from backend.models.storage import TempStorage
+from backend.storage import TempStorage
 from typing import List
 import google.generativeai as genai
 
